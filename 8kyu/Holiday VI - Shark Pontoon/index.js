@@ -20,6 +20,8 @@ The pontoon, you, and the shark are all aligned in one dimension.
 
 If you make it, return "Alive!", if not, return "Shark Bait!".
 
+Note: it's important to pay attention to the details.
+
 */
 
 // Long Solution
