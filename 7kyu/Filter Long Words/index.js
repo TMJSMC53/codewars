@@ -10,7 +10,7 @@ Example:
 
 // Long Solution
 function filterLongWords(sentence, a) {
-  return sentence.split(" ").filter((word) => word.length > n);
+  return sentence.split(" ").filter((word) => word.length > a);
 }
 
 // Refactor
