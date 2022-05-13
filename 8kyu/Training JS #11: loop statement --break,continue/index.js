@@ -29,5 +29,3 @@ function grabDoll(dolls) {
     return bag;
   }
 }
-
-console.log(grabDoll(["Mickey Mouse", "Hello Kitty", "Snow white"]));
