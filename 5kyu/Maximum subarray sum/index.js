@@ -10,6 +10,22 @@ Easy case is when the list is made up of only positive numbers and the maximum s
 Empty list is considered to have zero greatest sum. Note that the empty list or array is also a valid sublist/subarray.
 
 */
+// Older way
+// var maxSequence = function (arr) {
+//   var maxSum = 0;
+//   var currentSum = 0;
+
+//   for (var i = 0; i < arr.length; i++) {
+//     currentSum += arr[i];
+
+//     if (currentSum <= 0) {
+//       currentSum = 0;
+//     }
+//     maxSum = Math.max(maxSum, currentSum);
+//   }
+
+//   return maxSum;
+// };
 
 const maxSequence = (arr) => {
   let maxSum = 0;
