@@ -27,6 +27,3 @@ function maxDiff(list) {
 
   return Math.max(...list) - Math.min(...list);
 }
-
-console.log(maxDiff([1, 2, 3, 4]));
-console.log(maxDiff([1, 2, 3, -4]));
